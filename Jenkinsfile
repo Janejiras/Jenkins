@@ -1,9 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Intializ') {
       steps {
         echo 'Test'
+        echo 'Minimal Pipelines'
       }
     }
   }
